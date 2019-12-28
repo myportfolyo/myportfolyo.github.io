@@ -1943,7 +1943,7 @@ button {
 @media screen and (max-width: 640px) {
   .blog h3 {
     margin-bottom: 40px;
-  }
+  }  
 }
 .blog h3 span {
   color: #ff0036;
@@ -2022,4 +2022,19 @@ button {
 }
 .blog-more img {
   cursor: pointer;
+}
+@media screen and (max-width: 640px) {
+  
+  .blog-content-item{
+  	flex-direction: column;
+  	align-items: center;
+
+  }
+  .bestellers-plans{
+  	flex-direction: column;
+  	align-items: center;  	
+  }
+  .bestellers-plans-item{
+  	width: 80%;
+  }
 }
