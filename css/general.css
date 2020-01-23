@@ -402,6 +402,13 @@ header .header-logo-content {
   align-items: center;
 }
 
+header .header-logo-content img{
+  background: transparent;
+  margin-left: 10px;
+  height: 80%;
+  width: auto;
+}
+
 header .header-menu {
   min-height: 100%;
   position: absolute;
@@ -1819,7 +1826,7 @@ footer-righttri {
     display: none;
   }
 
-  header .header-logo .fa-desktop {
+  header .header-logo img {
     display: none;
   }
 
