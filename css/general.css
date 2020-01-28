@@ -730,7 +730,7 @@ header .header-righttri {
 .skills-exp-items figure img {
   width: 50%;
   height: auto;
-  max-height: 350px;
+  max-height: 220px;
   margin-bottom: 15px;
   border-radius: 7px;
 }
@@ -1301,6 +1301,7 @@ footer-righttri {
 }
 
 .besure-content-text {
+	width: 50%;
   box-sizing: border-box;
   word-wrap: break-word;
   margin-left: 15px;
@@ -1323,6 +1324,7 @@ footer-righttri {
 }
 
 .besure-content-text p {
+	width: 100%;
   line-height: 1.8;
   font-family: 'Old Standard TT', serif;
   font-size: 24px;
