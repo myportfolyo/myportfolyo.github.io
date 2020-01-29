@@ -335,7 +335,8 @@ header {
 
 header .header {
   background: #4169E1;
-  position: relative;
+  position: fixed;
+  width: 97%;
   display: -moz-flex;
   display: -ms-flex;
   display: -o-flex;
@@ -351,6 +352,8 @@ header .header {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  z-index: 1000;
+  opacity: 0.9;
 }
 
 header .header-logo {
@@ -529,7 +532,7 @@ header .header-righttri {
 
 .skills {
   height: auto;
-  margin-top: 20px;
+  margin-top: 60px;
 }
 
 .skills-wr {
@@ -1504,7 +1507,7 @@ footer-righttri {
   }
 
   header .header {
-    position: static;
+    margin-top: -60px;
   }
 
   header .header {
@@ -1862,6 +1865,9 @@ footer-righttri {
 
   .skills-txt h2 {
     font-size: 22px;
+  }
+  .skills-wr{
+    margin-top: 20px;
   }
 
   .contacts-social nav li a i {
