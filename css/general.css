@@ -1504,14 +1504,12 @@ footer-righttri {
 
   header {
     padding-top: 0px;
-  }
-
-  header .header {
-    margin-top: -60px;
-  }
+  }  
 
   header .header {
     display: block;
+    margin-top: -80px;
+    width: 100%;
   }
 
   header .header-logo {
@@ -1603,6 +1601,13 @@ footer-righttri {
   header .header-righttri {
     display: none;
   }
+   header .header-logo .fa-chevron-left {
+    display: none;
+  }
+
+  header .header-logo .fa-chevron-right {
+    display: none;
+  }
 
   .skills-txt {
     padding-left: 0px;
@@ -1622,6 +1627,9 @@ footer-righttri {
 
   .skills-txt p {
     font-size: 18px;
+  }
+  .skills-wr{
+    margin-top: 45px;
   }
 
   .skills-img {
@@ -1830,6 +1838,10 @@ footer-righttri {
   header .header-logo .fa-desktop {
     display: none;
   }
+  header .header{
+    width: 100%;
+    margin-top: -60px;
+  }
 
   header .header-logo img {
     display: none;
@@ -1867,7 +1879,7 @@ footer-righttri {
     font-size: 22px;
   }
   .skills-wr{
-    margin-top: 20px;
+    padding-top: 25px;
   }
 
   .contacts-social nav li a i {

@@ -50,7 +50,7 @@ jQuery(document).ready(function ($) {
 			var selector = $(this).attr('href');
 			var target = $(selector);
 				$('html,body').animate({
-					scrollTop: target.offset().top - 30
+					scrollTop: target.offset().top - 40
 				}, 1000);
 		});	
 			
