@@ -34,7 +34,7 @@ $(document).on("scroll", function(){
         }, 400)
       });
 }
-
+//Mobile menu slide
 window.onresize = function() {
     if ($(window).width() > '620'){
        $('.header-menu li').slideDown(300).addClass('open');
@@ -50,11 +50,23 @@ jQuery(document).ready(function ($) {
 			var selector = $(this).attr('href');
 			var target = $(selector);
 				$('html,body').animate({
-					scrollTop: target.offset().top - 40
+					scrollTop: target.offset().top - 120
 				}, 1000);
 		});	
+  // Ripple effect
+  $('.skills-exp-items figure').on('click', function(e){
+            let x = e.pageX - e.target.offsetLeft;
+            let y = e.pageY - e.target.offsetTop;
+            let ripples = document.createElement('span');
+            ripples.style.left = x + 'px';
+            ripples.style.top = y + 'px';
+            this.appendChild(ripples);
+            setTimeout(()=>{
+                ripples.remove();  
+            }, 500);
+
+        });
 			
 });
-
 
 
