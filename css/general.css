@@ -1038,7 +1038,7 @@ header .header-righttri {
   font-size: 38px;
   color: #4169E1;
   -webkit-transition: color 0.3s ease-out;
-  transition: color 0.3s ease-out;
+  transition: color 0.4s ease-out;
 }
 
 .contacts-social nav li a i:hover {
@@ -1071,13 +1071,14 @@ header .header-righttri {
 .contacts-connect li {
   font-size: 26px;
   list-style: none;
-  margin-bottom: 15px;
-  font-family: 'Jaldi', sans-serif;
+  margin-bottom: 25px;
+  font-family: 'Jaldi', sans-serif; 
 }
 
 .contacts-connect li i {
   margin-right: 10px;
   color: #4169E1;
+  transition: 0.5s ease-out;
 }
 
 .contacts-connect li span {
@@ -1085,14 +1086,23 @@ header .header-righttri {
 }
 
 .contacts-connect li a {
+  position: relative;
+  padding: 8px 20px;
   text-decoration: none;
   color: #000;
   -webkit-transition: color 0.4s ease-out;
-  transition: color 0.4s ease-out;
+  transition: 0.5s ease-out;
 }
 
+
 .contacts-connect li a:hover {
-  color: #4169E1;
+  color: #fff;
+  background: #4169E1;
+  box-shadow: 0 0 50px #4169E1;
+}
+
+.contacts-connect li a:hover i{
+  color: #fff;
 }
 
 .gallery {
