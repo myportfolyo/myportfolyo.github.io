@@ -730,6 +730,7 @@ header .header-righttri {
   box-shadow: 6px 7px 18px 4px rgba(122, 96, 122, 0.66);  
   position: relative;
   overflow: hidden;
+  height: auto;
 }
 
 .skills-exp-items figure span{
@@ -1024,10 +1025,27 @@ header .header-righttri {
   display: flex;
   -ms-flex-pack: distribute;
   justify-content: space-around;
+  box-sizing: border-box;
 }
 
 .contacts-social nav li {
   list-style: none;
+  background: #4169E1;
+  width: 70px;
+  height: 70px;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: center;
+  -ms-align-items: center;
+  align-items: center;
+  border-radius: 12px;
+  -webkit-transition: 0.4s linear;
+  transition: 0.4s linear;  
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;  
 }
 
 .contacts-social nav li a {
@@ -1036,15 +1054,14 @@ header .header-righttri {
 
 .contacts-social nav li a i {
   font-size: 38px;
-  color: #4169E1;
-  -webkit-transition: color 0.3s ease-out;
-  transition: color 0.4s ease-out;
+  color: #fff;
+  
 }
 
-.contacts-social nav li a i:hover {
-  color: #006400;
+.contacts-social nav li:hover { 
+    border-radius: 50%;
+    box-shadow: 2px 2px 38px 33px rgba(65,105,225,0.44)
 }
-
 .contacts-divider {
   width: 70%;
   height: 3px;
@@ -1075,6 +1092,7 @@ header .header-righttri {
   font-family: 'Jaldi', sans-serif; 
   position: relative;
 }
+
 
 .contacts-connect li i {
   margin-right: 10px;
@@ -1814,7 +1832,12 @@ footer-righttri {
   }
 
   .contacts-social nav li a i {
-    font-size: 30px;
+    font-size: 25px;
+  }
+
+  .contacts-social nav li {
+    width: 40px;
+    height: 40px;
   }
 
   .contacts-connect li {
