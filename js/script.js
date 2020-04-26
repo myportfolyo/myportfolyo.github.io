@@ -33,7 +33,17 @@ $(document).on("scroll", function(){
           scrollTop: 0
         }, 400)
       });
+
+      $('.skills-img img').css('width', '80%');
+      setTimeout(()=>{
+          $('.skills-txt').css('display', 'flex');    
+            }, 700);
+     setTimeout(()=>{
+          $('.skills-txt p').slideDown(300);    
+            }, 1000);
 }
+
+
 //Mobile menu slide
 window.onresize = function() {
     if ($(window).width() > '620'){

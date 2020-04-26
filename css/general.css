@@ -544,39 +544,63 @@ header .header-righttri {
   display: flex;
 }
 
+
 .skills-txt {
   width: calc(66.66666666666667% - 30px);
   padding-left: 40px;
-  display: -moz-flex;
+  display: none;
+  /*display: -moz-flex;
   display: -ms-flex;
   display: -o-flex;
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
+  display: flex;*/
   -moz-flex-direction: column;
   -ms-flex-direction: column;
   -o-flex-direction: column;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   flex-direction: column;
+  transition-delay: 0.2s;
+  transition: all 0.3s ease-in;
 }
 
-.skills-txt h1 {
-  font-size: 36px;
+.skills-txt h1 {  
   font-family: Roboto, sans-serif;
   text-transform: uppercase;
   color: #4169E1;
   letter-spacing: 4px;
+  animation: animatxt 0.8s linear;
+}
+
+@keyframes animatxt{
+  from{
+    font-size: 0;
+  }
+  to{
+    font-size: 36px;
+  }
 }
 
 .skills-txt h2 {
   width: 90%;
-  font-size: 30px;
   font-weight: 500;
   margin-top: -10px;
+  animation: animatxt2 0.8s linear;
+  transition-delay: 0.8s;
+}
+
+@keyframes animatxt2{
+  from{
+    font-size: 0;
+  }
+  to{
+    font-size: 30px;
+  }
 }
 
 .skills-txt p {
+  display: none;
   font-size: 22px;
   text-align: justify;
 }
@@ -607,8 +631,10 @@ header .header-righttri {
 
 .skills-img img {
   border-radius: 50%;
-  width: 80%;
+  width: 0%;
   height: auto;
+  transition: width 0.7s ease-out;
+  margin: 10px;
 }
 
 .skills-img .lined {
