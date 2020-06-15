@@ -541,15 +541,15 @@ header .header-righttri {
   display: -o-flex;
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
+  display: flex;  
+  justify-content: center;
 }
 
-
-.skills-txt {
-  width: calc(66.66666666666667% - 30px);
+.skills-txt {  
+	width: calc(66.66666666666667% - 30px);
   padding-left: 40px;
-  display: none;
-  /*display: -moz-flex;
+  /*display: none;
+  display: -moz-flex;
   display: -ms-flex;
   display: -o-flex;
   display: -webkit-box;
@@ -563,7 +563,9 @@ header .header-righttri {
   flex-direction: column;
   transition-delay: 0.2s;
   transition: all 0.3s ease-in;
+  display: none;
 }
+
 
 .skills-txt h1 {  
   font-family: Roboto, sans-serif;
@@ -2022,5 +2024,8 @@ footer-righttri {
 
   footer .footer {
     font-size: 22px;
+  }
+  .gallery{
+    display: none;
   }
 }

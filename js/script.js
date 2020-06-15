@@ -34,7 +34,7 @@ $(document).on("scroll", function(){
         }, 400)
       });
 
-      $('.skills-img img').css('width', '80%');
+     $('.skills-img img').css('width', '80%');
       setTimeout(()=>{
           $('.skills-txt').css('display', 'flex');    
             }, 700);

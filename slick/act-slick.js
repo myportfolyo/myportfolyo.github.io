@@ -18,12 +18,8 @@ $(document).ready(function(){
 		      }
 		    },
 		    {
-		      breakpoint: 620,
-		      settings: {
-		        slidesToShow: 1,
-		        slidesToScroll: 1,
-		        arrows: false
-		      }
+		      breakpoint: 480,
+		       settings: "unslick"
 		    }
 		    // You can unslick at a given breakpoint now by adding:
 		    // settings: "unslick"
