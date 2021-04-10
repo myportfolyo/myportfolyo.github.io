@@ -605,6 +605,9 @@ header .header-righttri {
   display: none;
   font-size: 22px;
   text-align: justify;
+  padding: 15px;
+  background: #00BFFF;
+  color: #fff;
 }
 
 .skills-img {
@@ -629,6 +632,7 @@ header .header-righttri {
   align-items: center;
   -ms-flex-pack: distribute;
   justify-content: space-around;
+  background: #32CD32;
 }
 
 .skills-img img {
@@ -755,7 +759,7 @@ header .header-righttri {
   border-radius: 7px;
   box-sizing: border-box;
   word-wrap: break-word;
-  box-shadow: 6px 7px 18px 4px rgba(122, 96, 122, 0.66);  
+  box-shadow: 6px 7px 18px 4px #C0FF3E;  
   position: relative;
   overflow: hidden;
   height: auto;
