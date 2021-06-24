@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Кошкин дом</title>
+	<link rel="stylesheet" type="text/css" href="css/general.css">
+	<meta name="viewport" content="width=device-width">	
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+</head>
+<body>
+<!--Header-->	 
+<header >	
+	<div class="header">
+		<div class="header-overlay wrapper">
+			<div class="header-first">
+				<a href="#" class="header-first-logo">
+					<img src="img/barcelona-metro-logo.png" alt="">
+				</a>
+				<nav class="header-first-menu">
+					<ul>
+						<li class="current-menu-item"><a href="#">Main</a></li>
+						<li><a href="#">Gallery</a></li>
+						<li><a href="#">News</a></li>
+						<li><a href="#">Profile</a></li>
+					</ul>
+					<button class="header-menu-btn">
+						<i class="fas fa-bars"></i>
+					</button>
+				</nav>
+				<div class="header-first-phone">
+					<p>+544 3490 00000 </p>
+					<span>Звони скорее!</span>
+				</div>
+			</div>	
+			<div class="header-second">
+				<span>Найдено 349 котов</span>
+			</div>
+		</div>	
+	</div>			
+</header>
+<!--Начало секции -->	 
+<section class="cats wrapper">
+	<div class="cats-sort">
+		<span>Сортировать по</span>
+		  <div class="cats-select">
+			<select name="price" id="price">
+				<option value="price">Цене</option>
+				<option value="DESC">убыванию</option>
+				<option value="ASC">возрастанию</option>	
+			</select>
+		  </div>
+		  <div class="cats-select">
+			<select name="age" id="age">
+				<option value="age">Возрасту</option>
+				<option value="DESC">убыванию</option>
+				<option value="ASC">возрастанию</option>	
+			</select>
+		  </div>
+	</div>
+	<div class="cats-gallery">
+		<div class="cats-gallery-item">
+			<img src="img/cat1.png" alt="stripes cat">
+			<div class="cats-sale">
+				-40%
+			</div>
+			<i class="cats-fav fas fa-heart"></i>
+			<div class="cats-fav-msg">Кот добавлен в избранные</div>
+			<div class="cats-item-info">
+				<h3>Кот полосатый</h3>
+				<div class="cats-info-block">
+					<span class="cats-info-color">
+						Коричневый окрас
+					</span>
+					<div class="cats-info-age">
+						<strong>2 мес.</strong></br>
+						<span>Возраст</span>
+					</div>
+					<div class="cats-info-foots">
+						<strong>4</strong></br>
+						<span>Кол-во лап</span>
+					</div>
+				</div>
+				<div class="cats-item-price">30000 руб.</div>
+			</div>				
+			<a href="" class="cats-item-btn">Купить</a>					
+		</div>
+		<div class="cats-gallery-item">
+			<img src="img/cat2.png" alt="stripes cat">
+			<i class="cats-fav fas fa-heart"></i>
+			<div class="cats-fav-msg">Кот добавлен в избранные</div>
+			<div class="cats-item-info">
+				<h3>Кот полосатый</h3>
+				<div class="cats-info-block">
+					<span class="cats-info-color">
+						Коричневый окрас
+					</span>
+					<div class="cats-info-age">
+						<strong>1 мес.</strong></br>
+						<span>Возраст</span>
+					</div>
+					<div class="cats-info-foots">
+						<strong>4</strong></br>
+						<span>Кол-во лап</span>
+					</div>
+				</div>
+				<div class="cats-item-price">40000 руб.</div>
+			</div>				
+			<a href="" class="cats-item-btndis">Продан</a>					
+		</div>
+		<div class="cats-gallery-item">
+			<img src="img/cat3.png" alt="stripes cat">
+			<i class="cats-fav fas fa-heart"></i>
+			<div class="cats-fav-msg">Кот добавлен в избранные</div>
+			<div class="cats-item-info">
+				<h3>Кот полосатый</h3>
+				<div class="cats-info-block">
+					<span class="cats-info-color">
+						Коричневый окрас
+					</span>
+					<div class="cats-info-age">
+						<strong>4 мес.</strong></br>
+						<span>Возраст</span>
+					</div>
+					<div class="cats-info-foots">
+						<strong>4</strong></br>
+						<span>Кол-во лап</span>
+					</div>
+				</div>
+				<div class="cats-item-price">50000 руб.</div>
+			</div>				
+			<a href="" class="cats-item-btn">Купить</a>					
+		</div>
+		<div class="cats-gallery-item">
+			<img src="img/cat1.png" alt="stripes cat">			
+			<i class="cats-fav fas fa-heart"></i>
+			<div class="cats-fav-msg">Кот добавлен в избранные</div>
+			<div class="cats-item-info">
+				<h3>Кот полосатый</h3>
+				<div class="cats-info-block">
+					<span class="cats-info-color">
+						Коричневый окрас
+					</span>
+					<div class="cats-info-age">
+						<strong>3 мес.</strong></br>
+						<span>Возраст</span>
+					</div>
+					<div class="cats-info-foots">
+						<strong>4</strong></br>
+						<span>Кол-во лап</span>
+					</div>
+				</div>
+				<div class="cats-item-price">20000 руб.</div>
+			</div>				
+			<a href="" class="cats-item-btn">Купить</a>					
+		</div>
+		<div class="cats-gallery-item">
+			<img src="img/cat2.png" alt="stripes cat">
+			<div class="cats-sale">
+				-40%
+			</div>
+			<i class="cats-fav fas fa-heart"></i>
+			<div class="cats-fav-msg">Кот добавлен в избранные</div>
+			<div class="cats-item-info">
+				<h3>Кот полосатый</h3>
+				<div class="cats-info-block">
+					<span class="cats-info-color">
+						Коричневый окрас
+					</span>
+					<div class="cats-info-age">
+						<strong>1 мес.</strong></br>
+						<span>Возраст</span>
+					</div>
+					<div class="cats-info-foots">
+						<strong>4</strong></br>
+						<span>Кол-во лап</span>
+					</div>
+				</div>
+				<div class="cats-item-price">40000 руб.</div>
+			</div>				
+			<a href="" class="cats-item-btn">Купить</a>					
+		</div>
+		<div class="cats-gallery-item">
+			<img src="img/cat3.png" alt="stripes cat">			
+			<i class="cats-fav fas fa-heart"></i>
+			<div class="cats-fav-msg">Кот добавлен в избранные</div>
+			<div class="cats-item-info">
+				<h3>Кот полосатый</h3>
+				<div class="cats-info-block">
+					<span class="cats-info-color">
+						Коричневый окрас
+					</span>
+					<div class="cats-info-age">
+						<strong>5 мес.</strong></br>
+						<span>Возраст</span>
+					</div>
+					<div class="cats-info-foots">
+						<strong>4</strong></br>
+						<span>Кол-во лап</span>
+					</div>
+				</div>
+				<div class="cats-item-price">10000 руб.</div>
+			</div>				
+			<a href="" class="cats-item-btndis">Продан</a>					
+		</div>
+	</div>
+	<button class="cats-else">
+		Показать ещё 20
+	</button>	
+</section>
+<!--Конец секции -->
+<!--Начало футера-->
+<footer class="footer wrapper">
+	<div class="footer-wr">
+		<div class="footer-txt">
+			<h2>Успей купить!</h2>
+			<p>Подпишись и успей словить все акции</p>
+		</div>
+		<div class="footer-form">
+			<form action="">
+				<div class="footer-form-block">
+					<input type="email" placeholder="Email">
+					<input type="checkbox" id="subsr" />
+					<label  for="subsr">
+						<i class="fas fa-check"></i>
+					 Подписаться на новости
+					</label>
+				</div>				
+				<input type="submit" value="Подписаться" disabled>
+			</form>
+		</div>
+	</div>        
+</footer>
+<!--Конец футера-->
+<div class="float-btn">
+	<img src="img/arrow.png" alt="">
+</div>
+
+<script src="js/scripts.js"></script>
+
+</body>
+</html>
