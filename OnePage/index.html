@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>OnePage TestTask</title>
+	<link rel="stylesheet" type="text/css" href="css/general.css">
+	<meta name="viewport" content="width=device-width">	
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+</head>
+<body>
+
+<!--Header-->	 
+<header >	
+	<div class="header wrapper">		
+		<div class="header-title">
+			<h1>Анкета</h1>
+		</div>
+	</div>			
+</header>
+<div class="personal" id="personal">
+	<img src="img/icon1.png" alt="">
+	<h2>Личная информация</h2>
+	<form action="" class="personal-form">
+		<div class="personal-inp">
+			<input type="text" placeholder="ФИО">
+		</div>		
+		<div class="personal-form-select">
+			<span>Год рождения</span><div class="personal-form-btn"></div>
+			  <div class="personal-form-dropdown">
+				  <p>1995</p>
+				  <p>1996</p>
+				  <p>1997</p>
+				  <p>1998</p>
+				  <p>1999</p>
+				  <p>2000</p>
+				  <p>2001</p>
+				  <p>2002</p>
+				  <p>2003</p>
+				  <p>2004</p>
+				  <p>2005</p>
+				  <p>2006</p>
+			  </div>
+			<!--<select required>
+		    	<option value="" selected>Год рождения</option>
+		    	<option value="1970">1970</option>
+		    	<option value="1971">1971</option>
+		    	<option value="1970">1972</option>
+		    	<option value="1971">1973</option>
+		    	<option value="1970">1974</option>
+		    	<option value="1971">1975</option>
+		    	<option value="1970">1976</option>
+		    	<option value="1971">1977</option>		    	
+			</select>-->
+
+			
+		</div>
+		<div class="personal-inp">				
+			<input type="text" placeholder="Место проживания">
+		</div>
+		<div class="personal-inp">
+			<input type="text" placeholder="Skype">
+		</div>
+		<div class="personal-inp">
+			<input type="text" placeholder="E-mail">
+		</div>
+	</form>
+</div>
+<div class="exp wrapper" id="experience">
+	<div class="exp-wr">
+		<img src="img/Shape-7.png" alt="">
+		<h2>Расскажите о своем опыте</h2>
+		<form class="exp-form"action="">
+			<div class="exp-form-check">
+				<input type="checkbox" id="chk1" name="option1" value="a2" checked>				
+				<label for="chk1">					
+					БЭМ/OOCSS
+				</label>				
+			</div>
+			<div class="exp-form-check">
+				<input type="checkbox" id="chk2" name="option1" value="a2" checked>
+				<label for="chk2">					
+					Верстаю семантично
+				</label>				
+			</div>
+			<div class="exp-form-check">
+				<input type="checkbox" id="chk3" name="option1" value="a2" checked>
+				<label for="chk3">
+					Webpack</label>				
+			</div>
+			<div class="exp-form-check">
+				<input type="checkbox" id="chk4" name="option1" value="a2" checked>
+				<label for="chk4">Stylus/LESS/SASS</label>				
+			</div>
+			<div class="exp-form-check">
+				<input type="checkbox" id="chk5" name="option1" value="a2" checked>
+				<label for="chk5">
+				ES2015/2016</label>				
+			</div>
+			<div class="exp-form-check">
+				<input type="checkbox" id="chk6" name="option1" value="a2" checked>
+				<label for="chk6">
+				jQuery</label>				
+			</div>
+			<div class="exp-form-check">
+				<input type="checkbox" id="chk7" name="option1" value="a2">
+				<label for="chk7">
+				Работаю с SVG</label>				
+			</div>
+			<div class="exp-form-check">
+				<input type="checkbox" id="chk8" name="option1" value="a2" checked>
+				<label for="chk8">
+				GULP/GRUNT</label>				
+			</div>
+			<div class="exp-form-check">
+				<input type="checkbox" id="chk9" name="option1" value="a2" checked>
+				<label for="chk9">
+				Использую Git</label>				
+			</div>
+		</form>
+	</div>	
+	
+</div>
+<div class="js wrapper" id="js">
+	<img src="img/icon2.png" alt="">
+	<h2>Уровень владения JavaScript</h2>
+	<div class="js-range">
+		<div class="js-range-item">Не владею</div>
+		<div class="js-range-item">Использую готовые решения</div>
+		<div class="js-range-item">Использую готовые решения и умею и переделывать</div>
+		<div class="js-range-item">Пишу сложный JS с нуля</div>
+	</div>
+	<div class="js-level">
+		<div class="js-level-items">
+			<div class="js-level-range"></div>
+			<div class="js-level-range"></div>
+			<div class="js-level-range"></div>
+			<div class="js-level-range"></div>
+		</div>		
+		<img class="js-level-pic" src="img/activ-select.png" alt="">
+		<div class="js-level-closing">
+			<div class="js-level-item"></div>
+			<div class="js-level-item"></div>			
+			<div class="js-level-item">
+				<img class="thumb" src="img/round.png" alt="">
+			</div>
+			<div class="js-level-item js-closed"></div>
+		</div>
+		
+	</div>
+	<!--<input type="range" id="volume" name="volume"
+         min="0" max="4"> -->
+</div>	
+<div class="about wrapper" id="about">
+	<img src="img/icon.png" alt="">
+	<h2>Расскажите о себе</h2>
+	<p>Напишите несколько предложений, чем привлекла наша вакансия и что вы ожидаете от работы у нас</p>
+	<textarea name="my" id="" cols="30" rows="10" placeholder="Describe yourself here...">
+		Понравилась тем, что требования и задания описаны понятно и лаконично. От совместной рабты ожидаю интересных проектов для развития.
+	</textarea>
+	<button type="button">Готово</button>
+</div>
+
+<div class="menu">
+	<div class="wrapper">
+		<button class="menu-btn">
+			<i class="fas fa-bars"></i>
+		</button>
+		<nav class="menu-list">
+			<ul>
+				<li class="current-menu-item">
+					<a href="#personal">Личная информация</a>
+				</li>
+			    <li>
+					<a href="#experience">Опыт</a>
+				</li>
+			    <li>
+					<a href="#js">JavaScript</a>
+				</li>
+			    <li>
+					<a href="#about">О себе</a>
+				</li>
+			</ul>
+		</nav>		
+	</div>	
+</div>
+
+<script src="js/scripts.js"></script>
+</body>
+</html>
